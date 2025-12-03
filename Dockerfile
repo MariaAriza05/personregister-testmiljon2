@@ -5,7 +5,7 @@ WORKDIR /app
 COPY app.py .
 RUN mkdir -p /data
 
-# Create directory for SQLite database tets
+# Create directory for SQLite database testar igen
 RUN mkdir -p /data
 
 # Installera sqlite3 CLI
